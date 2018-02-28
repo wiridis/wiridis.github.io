@@ -1,0 +1,320 @@
+@media only screen and (max-width: 5120px) {
+  .divider{
+		width: 100%;
+	}
+	body {
+		overflow-x:hidden;
+		background-color: #FFF;
+		width:100%;
+	}
+	#content{
+		width:100%;
+	}
+	#container {
+		width: 90%;
+		margin:auto;
+	}
+
+	}
+
+
+@media only screen and (max-width: 768px) {
+	body {
+		overflow-x:hidden;
+		background-color: #FFF;
+		width:100%;
+	}
+	#content{
+		width:100%;
+	}
+	#container {
+		width: 90%;
+		margin:auto;
+	}
+	header .mobile-menu {
+		display:block;
+	}
+	header .mobile-menu.selected {
+
+	}
+
+	/*navi {
+		position:fixed; left:-100%; width:100%;
+		z-index:100; display:none;
+		margin:auto; margin-bottom: 27px;
+		height:100%; background:#333;
+	}
+	navi ul {
+
+		padding:0;
+
+	}
+
+	navi ul li {
+		width:100%;  margin-left:0px; margin-top:-4px;	border:#333 1px solid;
+		height:80px; font-size:20px;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+
+	}
+	navi ul li span {
+		display:table-cell; vertical-align:middle;	height:80px;
+	}
+	navi ul li a {
+		display: table;
+		color:#fff; text-decoration:none;
+		background:#818181;
+		background-image: none;
+		width:100%;
+	}
+	nav ul li a:hover {
+		background:#333;
+		width:100%;
+	}
+
+	/* Highlighted Page
+
+	.about nav ul li.item1 a {
+		background:#333;
+		width:100%;
+	}*/
+
+	.mobile-title {
+		width:100%; display:block; height:40px; cursor:pointer;
+		background:#818181; font-weight:bold; font-size:15px; text-transform:uppercase;
+	}
+	.mobile-title span {
+		display:block; padding-top:10px;
+	}
+
+	/* Content */
+	#content .theme-default {
+		width: 100%;
+		height: auto;
+		float: none;
+		margin:auto;
+
+	}
+
+	#content #article  {
+		width: 100%;
+		height: auto;
+		padding-bottom:30px;
+		float: none;
+		clear: both;
+		margin:auto;
+
+	}
+
+
+#img .footer-img {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		text-align:center;
+			}
+
+	hr{
+		display:none;
+		}
+
+		#article hr{
+		display:block;
+		}
+
+		.sub-content hr{
+			display:block;
+			}
+
+}
+@media only screen and (max-width: 480px) {
+body{
+
+
+			width:100%;
+		}
+		#content{
+			width:100%;
+			height:auto;
+		}
+
+
+		.burger-1 {
+			    display:none;
+
+
+			}
+
+			.burger-3 {
+				 display:none;
+
+			}
+
+			.burger-2 {
+				display:none;
+
+			}
+
+
+			.burger-4{
+				display:none;
+			}
+			.burger-5{
+			    display:none;
+			}
+			.burger-6{
+			    display:none;
+			}
+
+		#tagboard iframe{
+			width: 90%;
+			margin:auto;
+			height: 150px;
+		}
+
+
+		#news{
+			width:200%;
+			padding:0px;
+		}
+
+		#buttons{
+			width:200%;
+			float:none;
+
+
+
+		}
+		#navi{
+			width:100%
+		}
+
+		#latest p{
+			font-size:14px;
+			font-family:font-family: 'Pathway Gothic One', sans-serif;
+			padding:0;
+			margin:0;
+			text-align:center;
+		}
+
+		#tagboard{
+			width:95%;
+
+		}
+
+		#tagboard header{
+			font-size:16px;
+		}
+
+		#story-box{
+			width:90%;
+			height:550px;
+		}
+		#story-box p{
+			width:90%;
+			text-align:center;
+			font-size:14px;
+		}
+
+        .mobile-title{
+			background-color:#FFF;
+			margin:0 auto;
+			margin-left:-80px;
+			padding:0;
+			height:25px;
+			WIDTH:300px;
+
+		}
+		.mobile-title h6{
+			color:#900;
+			text-align:center;
+			margin:0;
+			padding:0;
+		}
+		.buttonBox{
+			float:none;
+			display:inline-block;
+			height:40px;
+
+		}
+		.buttonBox ul li{
+
+
+			line-height:none;
+
+
+		}
+
+		#products-box{
+			width:90%;
+
+		}
+		#products-box iframe{
+			width:95%;
+			margin-left:-180px;
+		}
+
+#recipe{
+	width:95%;
+	height:400px;
+	margin-left:-3px;
+
+}
+
+#recipe ul li{
+	width:50%;
+	height:50%;
+	display:inline-block;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+
+}
+#recipe ul li img{
+	padding:0;
+	margin:0;
+	display:inline-block;
+	width:80%;
+	height:80%;
+
+
+}
+#recipelogo{
+	margin-left:30px;
+}
+
+#contact-logo{
+	margin-left:30px;
+	padding:0px;
+}
+#map-box{
+	width:95%;
+	margin-top:10px;
+}
+#map-box iframe{
+	width:94%;
+
+}
+
+.buttons{
+	float:none;
+	margin-left:-75px;
+	width:90%;
+}
+
+#distributors img{
+	display:none;
+}
+
+#logo{
+	margin-left:180px;
+}
+
+
+
+#navi ul li{
+	background-color:#600;
+	display:list-item;
+}
+
+}
